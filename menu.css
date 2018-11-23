@@ -13,7 +13,7 @@ body{
   align-items: center;
   background-color: red;
   animation-name: example;
-  animation-duration: 8s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 main{
