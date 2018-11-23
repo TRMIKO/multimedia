@@ -1,0 +1,217 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cubo {
+  display: inline-block;
+  position: relative;
+}
+
+.cuadro{
+  width: 250px;
+  height: 250px;
+  background-color: #ecf0f1;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+.arriba {
+  left: -7px;
+  top: 2px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg) skew(15deg, 15deg);
+  z-index: 2;
+}
+.ok-arriba {
+  left: -7px;
+  top: 2px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg) skew(15deg, 15deg);
+  z-index: 2;
+}
+
+.izq {
+  left: -53px;
+  top: 88px;
+  width: 98px;
+  height: 100px;
+  transform: rotate(10deg) skew(12deg, 20deg);
+  z-index: 2;
+}
+
+.der {
+  left: 45px;
+  top: 88px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-15deg) skew(-13deg, -15deg);
+  z-index: 2;
+}
+
+.sombra {
+  border-radius: 9px;
+  display: inline-block;
+  position: absolute;
+  left: -1px;
+  top: 155px;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg) skew(15deg, 15deg);
+  z-index: 1;
+  opacity: .6;
+  filter: blur(2px);
+  transition: all .2s;
+}
+
+.arriba, .izq, .der {
+  border: 7px solid;
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute;
+  transition: top .2s;
+}
+
+/*HOVER DE LOS CUBOS*/
+.cubo:hover .arriba {
+  top: -21px;
+}
+
+.cubo:hover .der {
+  top: 65px;
+}
+
+.cubo:hover .izq {
+  top: 65px;
+}
+
+.cubo:hover .sombra {
+  width: 90px;
+  height: 90px;
+  left: 5px;
+}
+
+/*HOVER DE LOS CUBOS*/
+.zona {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#adivina{
+  margin-top: 100px;
+}
+
+.c1{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.c2 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.c3 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+/*cubo 1*/
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+
+/*cubo 2*/
+
+.blue{
+  background-color: blue;
+}
+.purple{
+  background-color: purple;
+}
+.blue-dark{
+  background-color: #22a6b3;
+}
+
+/*cubo okay*/
+
+.okarriba{
+  background-color: #9100ff;
+}
+.okder{
+  background-color: #14cc5e;
+}
+.okizq{
+  /*background-color: #09b240;*/
+  background-color: #009029;
+}
+
+
+
+.bluebell{
+  background-color: #3B3B98;
+}
+
+.fiery_fuchsia{
+  background-color: pink;
+}
+
+.spire{
+  background-color: #25CCF7;
+}
+
+.turquesa{
+  background-color: #1abc9c;
+}
+
+.piter{
+  background-color: #3498db;
+}
+.alizarin{
+  background-color: #e74c3c;
+}
+.pumpkin{
+  background-color: #d35400;
+}
+.cloud{
+  background-color: #ecf0f1;
+}
+.sun{
+  background-color: #f1c40f;
+}
+.montain{
+  background-color: #786fa6;
+}
+.rogue{
+  background-color: #f8a5c2;
+}
+.procelana{
+  background-color: #e66767;
+}
+.biscain{
+  background-color: #303952;
+}
+.oldgrain{
+  background-color: #cf6a87;
+}
+.foorgoten{
+  background-color: #9980FA;
+}

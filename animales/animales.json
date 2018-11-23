@@ -1,0 +1,140 @@
+[{
+  id:1,
+  mp3: "abeja.mp3",
+  img: "abejas.png"
+}, {
+  id:2,
+  mp3: "alce.mp3",
+  img: "alce.png"
+}, {
+  id:3,
+  mp3: "aves.mp3",
+  img: "aves.png"
+}, {
+  id:4,
+  mp3: "borrego.mp3",
+  img: "borrego.png"
+}, {
+  id:5,
+  mp3: "buho.mp3",
+  img: "buho.png"
+}, {
+  id:6,
+  mp3: "caballo.mp3",
+  img: "caballo.png"
+}, {
+  id:7,
+  mp3: "cabra.mp3",
+  img: "cabra.png"
+}, {
+  id:8,
+  mp3: "canario.mp3",
+  img: "canario.png"
+}, {
+  id:9,
+  mp3: "cuervo.mp3",
+  img: "cuervo.png"
+}, {
+  id:10,
+  mp3: "delfin.mp3",
+  img: "delfin.png"
+}, {
+  id:11,
+  mp3: "elefante.mp3",
+  img: "elefante.png"
+}, {
+  id:12,
+  mp3: "foca.mp3",
+  img: "foca.png"
+}, {
+  id:13,
+  mp3: "gallina.mp3",
+  img: "gallina.png"
+}, {
+  id:14,
+  mp3: "gallo.mp3",
+  img: "gallo.png"
+}, {
+  id:15,
+  img: "gato.png",
+}, {
+  id:16,
+  mp3: "gorilla.mp3",
+  img: "gorilla.png"
+}, {
+  id:17,
+  mp3: "jabali.mp3",
+  img: "jabali.png",
+}, {
+  id:18,
+  mp3: "jaguar.mp3",
+  img: "jaguar.png"
+}, {
+  id:19,
+  mp3: "leon.mp3",
+  img: "leon.png"
+}, {
+  id:20,
+  mp3: "lobo.mp3",
+  img: "lobo.png"
+}, {
+  id:21,
+  mp3: "loro.mp3",
+  img: "loro.png"
+}, {
+  id:22,
+  mp3: "mono.mp3",
+  img: "mono.png"
+}, {
+  id:23,
+  mp3: "morsa.mp3",
+  img: "morsa.png"
+}, {
+  id:24,
+  mp3: "murcielago.mp3",
+  img: "murcielago.png"
+}, {
+  id:25,
+  mp3: "obeja.mp3",
+  img: "obeja.png"
+}, {
+  id:26,
+  mp3: "oso.mp3",
+  img: "oso.png"
+}, {
+  id:27,
+  mp3: "pato.mp3",
+  img: "pato.png"
+}, {
+  id:28,
+  mp3: "pavo.mp3",
+  img: "pavo.png"
+}, {
+  id:29,
+  mp3: "pavo_real.mp3",
+  img: "pavo_real.png"
+}, {
+  id:30,
+  mp3: "perro.mp3",
+  img: "perro.png"
+}, {
+  id:31,
+  mp3: "pig.mp3",
+  img: "pig.png"
+}, {
+  id:32,
+  mp3: "serpiente.mp3",
+  img: "serpiente.png"
+}, {
+  id:33,
+  mp3: "tigre.mp3",
+  img: "tigre.png"
+}, {
+  id:34,
+  mp3: "toro.mp3",
+  img: "toro.png"
+}, {
+  id:35,
+  mp3: "vaca.mp3",
+  img: "vaca.png"
+}]

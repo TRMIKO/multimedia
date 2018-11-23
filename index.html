@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main id="zona" class="zona">
+    <audio id="player1" style="display:none;" controls preload="auto">
+      <source id="audio1">
+    </audio>
+    <audio id="player2" style="display:none;" controls preload="auto">
+      <source id="audio2">
+    </audio>
+    <audio id="player3" style="display:none;" controls preload="auto">
+      <source id="audio3">
+    </audio>
+
+    <img id="adivina" width="150" height="150" src="" alt="">
+    <div id="c1" class="cubo c1">
+      <div id="c1-arriba" class="arriba red"></div>
+      <div id="c1-izq" class="izq orange"></div>
+      <div id="c1-der" class="der yellow"></div>
+      <div class="sombra"></div>
+    </div>
+
+    <div class="cubo c2">
+      <div class="arriba blue"></div>
+      <div class="izq purple"></div>
+      <div class="der blue-dark"></div>
+      <div class="sombra"></div>
+    </div>
+    <div class="cubo c3">
+      <div class="arriba okarriba"></div>
+      <div class="izq okizq"></div>
+      <div class="der okder"></div>
+      <div class="sombra"></div>
+    </div>
+
+  </main>
+
+  <script src="./jquery.min.js"></script>
+  <script src="./sweetalert.min.js">
+
+  </script>
+  <script src="main.js">
+
+  </script>
+
+</body>
+
+</html>
